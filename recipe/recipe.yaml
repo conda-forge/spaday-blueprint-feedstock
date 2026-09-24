@@ -1,5 +1,5 @@
 context:
-  version: "0.1.0"
+  version: "0.2.0"
 
 package:
   name: spaday-blueprint
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-blueprint/spaday_blueprint-${{ version }}.tar.gz
-  sha256: a9e9df55f3ae8a17b1740ff0291c28367e3816217a1b6087f76a4f3ac73e54d3
+  sha256: d2738c0b1b969685dbf0815c8757b700ccbe44b16570e5ef11abc2c6767a29bc
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - spaday >=0.8.2,<1
+    - spaday >=0.10.0,<1
 
 tests:
   - python:
