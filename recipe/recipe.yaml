@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: spaday-blueprint
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-blueprint/spaday_blueprint-${{ version }}.tar.gz
-  sha256: 3ef35726a6bf7aa9708a22b3b153eb6e88811b16e56436f5b4fa1f46274feedd
+  sha256: f67933ae06196550f6bbce2d079346bc6d4b537fee85b0b1469cbf6d9dd2db39
 
 build:
   number: 0
